@@ -1,8 +1,10 @@
-# Shallow Whole Genome Sequencing (sWGS) Analysis Pipeline      
-Tumour Evolution      
+# Shallow Whole Genome Sequencing (sWGS) Analysis      
+for Tumour Evolution      
 
 ### Technology Introduction    
 Shallow Whole Genome Sequencing (sWGS) is a cost-effective method for detecting genome-wide copy number variations (CNVs) at low coverage (typically 0.1-1x). This technique quantifies DNA sequence read depth in fixed genomic bins to identify chromosomal gains/losses, making it ideal for cancer genomics studies where large-scale CNVs are key drivers of disease. This repository implements a complete sWGS analysis pipeline from raw sequencing data to CNV detection.      
+1. [Chapter 1](notes/Chapter2_Preprocessing_Pipelines.pdf): Preprocessing            
+2. [Chapter 2](notes/Chapter3_QDNAseq.pdf): Call Copy Number            
 
 ---
 
