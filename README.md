@@ -74,20 +74,6 @@ Project/
 
 ---
 
-### Key Biological Findings
-Analysis of TP53-knockout ovarian cancer cell lines revealed:
-- **Untreated cells**:
-  - Chromosome 2p/7q/8/9p/11q/15q/20p amplifications
-  - 1q/7p/10q/12p/17p/18 deletions
-- **Reversine-treated cells**:
-  - Distinct CNV profiles with treatment-specific alterations
-  - Recurrent 1q deletions and 4p/8p/11q/15q amplifications
-  - Sample H9 showed 5q deletion and 18q loss (example below):
-
-![H9 CNV Profile](https://example.com/h9_profile.png)
-
----
-
 ### Dependencies
 | Tool          | Version       | Purpose                     |
 |---------------|---------------|----------------------------|
