@@ -90,22 +90,12 @@ Project/
 ### Execution Workflow
 1. **Preprocessing**:
 ```bash
-# Set environment variables
-export REF=/path/to/references
-export SEQ_1=sample_R1.fastq.gz
-export SEQ_2=sample_R2.fastq.gz
-export sample_id=SAMPLE_NAME
-
-# Run alignment pipeline
+# In HPC
 bash scripts/alignment.sh
-```
-
-2. **Recalibration**:
-```bash
 bash scripts/recalibration.sh
 ```
 
-3. **CNV Analysis**:
+2. **CNV Analysis**:
 ```R
 # In R:
 source("scripts/qdnaseq.R")
