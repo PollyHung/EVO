@@ -9,6 +9,14 @@ Shallow Whole Genome Sequencing (sWGS) is a cost-effective method for detecting 
 ### Pipeline Overview
 The analysis consists of three integrated stages:
 
+<p align="center">
+    <img src="images/Picture1.png" alt="Picture1" width="700">
+</p>
+
+<p align="center">
+    <img src="images/Picture2.png" alt="Picture2" width="700">
+</p>
+
 #### 1. Alignment & Preprocessing (`alignment.sh`)
 - **Input**: Paired-end FASTQ files
 - **Steps**:
@@ -29,6 +37,7 @@ The analysis consists of three integrated stages:
     - `Homo_sapiens_assembly38.dbsnp138.vcf.gz`
   - Apply recalibration with `ApplyBQSR`
 - **Output**: Recalibrated BAM file
+
 
 #### 3. CNV Analysis with QDNAseq (`qdnaseq.R`)
 - **Input**: Recalibrated BAM files
