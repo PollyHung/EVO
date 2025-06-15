@@ -10,11 +10,11 @@ Shallow Whole Genome Sequencing (sWGS) is a cost-effective method for detecting 
 The analysis consists of three integrated stages:
 
 <p align="center">
-    <img src="images/Picture1.png" alt="Picture1" width="700">
+    <img src="images/Picture1.png" alt="Picture1" width="500">
 </p>
 
 <p align="center">
-    <img src="images/Picture2.png" alt="Picture2" width="700">
+    <img src="images/Picture2.png" alt="Picture2" width="500">
 </p>
 
 #### 1. Alignment & Preprocessing (`alignment.sh`)
